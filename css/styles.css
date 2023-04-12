@@ -55,7 +55,19 @@ footer {
     border-radius: 5%;
 }
 
+.miembros {
+    height: 75vh;
+}
+
 /*RERSPONSIVE*/
+
+/*Dispositivos XL*/
+@media screen and (max-width: 1335px) {
+    .imagen {
+        width: 65%;
+        border-radius: 5%;
+    }
+}
 
 /*Dispositivos L*/
 @media screen and (max-width: 992px) {
@@ -69,6 +81,10 @@ footer {
 
     .videoTres {
         width: 720px;
+    }
+
+    .miembros {
+        height: 100%;
     }
 }
 
